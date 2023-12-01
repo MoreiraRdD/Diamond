@@ -1,0 +1,113 @@
+img{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.cabeçalho{
+    width: 100%;
+    display: flex;
+    background-color: #2d88c5;
+    gap: 50px;
+    padding: 25px;
+}
+
+.cabeçalho button {
+    flex:1;
+    background-color: #2d88c5;
+    color: white;
+    padding: 20px;
+    font:14px Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.T{
+    font: 22px bold Arial, Helvetica, sans-serif;
+    color: #255787;
+   display: flex;
+   justify-content: space-around;
+}
+
+.t{
+    font:18px bold Arial, Helvetica, sans-serif;
+    color: #255787;
+    display: flex;
+    column-gap: 20px;
+}
+
+.Serviços{
+    font: 40px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #255787;
+    text-align: center;
+}
+
+.separação-de-itens{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bloco {
+    width: 350px;
+    height: 350px;
+    background-color: #2d88c5;
+    color: white;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloco img {
+    width: 60%;
+}
+
+.fonte-bloco {
+    font: 22px Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background: linear-gradient(to right, #216590, #01d4dd);
+    color: white;
+    display: flex;
+}
+
+.img-footer {
+    max-width: 35%;
+    margin: 5%;
+}
+
+.img-footer img {
+    width: 100%;
+}
+
+.mapa-site {
+    flex: 1;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+.mapa-site li {
+    margin-bottom: 20px;
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+.redes {
+    flex: 1;
+    width: 500px;
+    margin-top: 50px;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+.redes img {
+    width: 60px;
+    margin:0;
+    padding: 15px;
+}
+#abb{
+    display: flex;
+    flex-direction: row;
+}
